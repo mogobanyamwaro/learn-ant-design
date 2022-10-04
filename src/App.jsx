@@ -5,13 +5,15 @@ import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import { Button } from "antd";
+import Learn from "./pages/Learn";
+import SWitch from "./components/Switch";
 function App() {
   return (
     <React.Fragment>
       <div className="App">
         {/* <Button type="primary">Button clicked</Button>
          */}
-        <Dashboard />
+        <SWitch />
       </div>
     </React.Fragment>
   );
